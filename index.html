@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center; font-family: 'Shadows Into Light', cursive">
+      Rock-Paper-Scissors
+    </h1>
+    <div style="height: 1px; background: rgb(123, 120, 120)"></div>
+    <h2 style="font-family: 'Shadows Into Light', cursive">Rules:</h2>
+    <ul>
+      <li>Rock beats scissors</li>
+      <li>Paper beats Rock</li>
+      <li>Scissors beats Paper</li>
+    </ul>
+    <div>
+      <h2 style="font-family: 'Shadows Into Light', cursive">Scores:</h2>
+      <div class="scores" style="margin: 3px black">
+        <div class="computer_score">
+          Computer Score: <span class="computer_score1">0</span>
+        </div>
+        <div class="user_score">
+          User Score: <span class="user_score1">0</span>
+        </div>
+      </div>
+    </div>
+    <!-- <br /> -->
+    <h2 style="font-family: 'Shadows Into Light', cursive">
+      Choose one option:
+    </h2>
+
+    <div class="buttons">
+      <button
+        onclick="eval(0)"
+        style="
+          padding: 10px 40px;
+          border-radius: 10px;
+          font-size: large;
+          background: black;
+          color: white;
+        "
+      >
+        Paper
+      </button>
+      <button
+        onclick="eval(1)"
+        style="
+          padding: 10px 40px;
+          border-radius: 10px;
+          font-size: large;
+          background: black;
+          color: white;
+        "
+      >
+        Scissors
+      </button>
+      <button
+        onclick="eval(2)"
+        style="
+          padding: 10px 40px;
+          border-radius: 10px;
+          font-size: large;
+          background: black;
+          color: white;
+        "
+      >
+        Rock
+      </button>
+    </div>
+    <!-- <br /> -->
+    <h1 class="summary" style="text-align: center"></h1>
+  </body>
+</html>

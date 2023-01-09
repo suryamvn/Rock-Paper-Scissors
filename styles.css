@@ -1,0 +1,41 @@
+body {
+  background-color: #ebf2ff;
+  margin: 0px 50px;
+  font-size: large;
+}
+.scores {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 70%; */
+  /* gap: 50px; */
+  /* background: white; */
+  height: 50px;
+  border-radius: 10px;
+  /* padding: 10px; */
+}
+.computer_score,
+.user_score {
+  padding: 10px;
+  padding-right: 50px;
+  border-right: 2px solid black !important;
+}
+
+.user_score {
+  padding-left: 40px;
+  border-right: none !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.05);
+}
